@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Bienvenidos a UNAG</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,maximum-scale=1.0">
+  <link rel="stylesheet" href="/views/css/miso.css">
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="/views/css/style.css?id=1560457981">
+  <link rel="stylesheet" href="/views/css/jquery.fancybox.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon-60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+</head>
+<body>
+  <div id="header-wrapper">
+    <div id="header">
+      <div id="header-container">
+        <a href="#" id="nav-toggle"></a>
+        <h1 id="logo"><a href="https://unag.mx"><span>UNAG</span></a></h1>
+        <ul id="quick-access-nav">
+          <li class="gray">Intranet</li>
+          <li><a href="https://unag.academic.lat/Autenticacion.aspx" target="_blank">Alumnos</a></li>
+          <li><a href="https://www.sesweb.mx/login.aspx?ReturnUrl=%2fSESWEB%2fPaginas%2fInicio.aspx" target="_blank">Maestros</a></li>
+          <li class="search"><a href="#" id="header-search-toggle"></a></li>
+        </ul>
+        <form action="/buscar/" id="header-search" method="get">
+          <input type="text" class="search-query" name="q" placeholder="Haz tu búsqueda" value="" />
+        </form>
+        <div id="header-info"><a href="/contacto/"></a></div>
+        <div id="header-tools">
+          <div id="header-yt"><a href="https://www.youtube.com/user/UNAGJALISCO" target="_blank"></a></div>
+          <div id="header-fb"><a href="https://www.facebook.com/pages/UNAG-Universidad-Antropológica-de-Guadalajara/688118537865354" target="_blank"></a></div>
+        </div>
+        <div id="header-data">
+          <div class="header-social">
+          <!---  <span>Síguenos en</span>
+            <a href="https://www.facebook.com/pages/UNAG-Universidad-Antropológica-de-Guadalajara/688118537865354" target="_blank" class="fb"></a>
+            <a href="https://www.instagram.com/unagoficial/" target="_blank" class="instagram"></a>
+            <a href="https://twitter.com/UNAGoficial" target="_blank" class="twitter"></a>
+            <a href="https://www.youtube.com/user/UNAGJALISCO" target="_blank" class="youtube"></a>
+            --->
+          </div>
+          <!---<span class="header-phone">3826. 1363</span>-->
+          <div class="header-info">
+            <!---<a href="mailto:informes@unag.mx" class="mail">informes@unag.mx</a>---><br /><br />
+          </div>
+        </div>
+        <ul id="nav">
+          <li class="current"><a href="/">Home</a></li>
+          <li id="item-study"><a href="/ventajas">Oferta Educativa</a></li>
+          <li id="item-aboutus"><a href="/nosotros">Nosotros</a></li>
+                    <li id="item-students"><a href="/alumnos">Alumnos</a></li>
+          <li><a href="/unagadistancia/index.html" target="_blank">UNAG a distancia</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="main-nav">
+    <span class="arrow"></span>
+    <a href="/" class="link">Home</a>
+    <a href="/ventajas" class="toggle" id="toggle-study">Estudia en UNAG</a>
+    <div class="container" id="nav-study" style="display:none;">
+      <div class="main three">
+        <div class="column degrees">
+          <span class="title">Licenciaturas</span>
+          <span class="area">Área de la Salud</span>
+          <ul>
+            <li><a href="/licenciaturas/homeopatia"><span>»</span> Licenciatura en Homeopatía</a></li>
+            <li><a href="/licenciaturas/nutricion"><span>»</span> Licenciatura en Nutrición</a></li>
+          </ul>
+          <hr />
+          <span class="area">Área de Ciencias Sociales y Humanidades</span>
+          <ul>
+            <li><a href="/licenciaturas/psicologia-social"><span>»</span> Licenciatura en Psicología Social</a></li>
+            <li><a href="/licenciaturas/desarrollo-humano"><span>»</span> Licenciatura en Desarrollo Humano</a></li>
+            <li><a href="/licenciaturas/psicologia-familiar"><span>»</span> Licenciatura en Psicología Familiar</a></li>
+            <li><a href="/licenciaturas/educacion"><span>»</span> Licenciatura en Educación</a></li>
+            <li><a href="/licenciaturas/derecho"><span>»</span> Licenciatura en Derecho</a></li>
+          </ul>
+          <hr />
+          <span class="area">Áreas Administrativas</span>
+          <ul>
+            <li><a href="/licenciaturas/administracion"><span>»</span> Licenciatura en Administración de Empresas</a></li>
+            <li><a href="/licenciaturas/contabilidad"><span>»</span> Licenciatura en Contabilidad y Finanzas</a></li>
+            <li><a href="/licenciaturas/negocios"><span>»</span> Licenciatura en Negocios Internacionales</a></li>
+            <li><a href="/licenciaturas/mercadotecnia"><span>»</span> Licenciatura en Mercadotecnia y Publicidad</a></li>
+          </ul>
+        </div>
+        <div class="column masters">
+          <!--<span class="title">Posgrados y Educación Continua</span>-->
+          <span class="title">Maestrías</span>
+          <span class="area">Área de la Salud</span>
+          <ul>
+            <li><a href="/maestrias/nutricion"><span>»</span> Maestría en Nutrición</a></li>
+          </ul>
+          <hr />
+          <span class="area">Área de Ciencias Sociales y Humanidades</span>
+          <ul>
+            <li><a href="/maestrias/psicologia-transpersonal"><span>»</span> Maestría en Psicología Transpersonal</a></li>
+            <li><a href="/maestrias/bioenergia"><span>»</span> Maestría en Bioenergía y Desarrollo Humano</a></li>
+            <li><a href="/maestrias/orientacion-familiar"><span>»</span> Maestría en Ciencias y Técnicas para Orientación Familiar</a></li>
+            <li><a href="/maestrias/innovacion-educativa"><span>»</span> Maestría en Innovación Educativa</a></li>
+            <li><a href="/maestrias/ciencias-humanas"><span>»</span> Maestría en Ciencias Humanas</a></li>
+          </ul>
+          <hr />
+          <span class="area">Áreas Administrativas</span>
+          <ul>
+            <li><a href="/maestrias/administracion"><span>»</span> Maestría en Administración de Negocios</a></li>
+            <li><a href="/maestrias/gestion-directiva"><span>»</span> Maestría en Gestión Directiva</a></li>
+          </ul>
+        </div>
+        <div class="column doctorates">
+          <!--<span class="title"></span>-->
+          <span class="title">Doctorados</span>
+          <span class="area">Área de Ciencias Sociales y Humanidades</span>
+          <ul>
+            <li><a href="/doctorados/desarrollo-humano"><span>»</span> Doctorado en Desarrollo Humano</a></li>
+          </ul>
+          <hr />
+          <span class="area">Áreas Administrativas</span>
+          <ul>
+            <li><a href="/doctorados/alta-direccion"><span>»</span> Doctorado en Alta Dirección</a></li>
+          </ul>
+         <!--<hr />
+          <span class="title">Especialidades</span>
+          <span class="area">Área de la Salud</span>
+          <ul>
+            <li><a href="/doctorados/terapeutica"><span>»</span> Especialidad en Terapéutica Homeopática</a></li>
+          </ul>
+          <hr />-->
+          <span class="area">Área Ciencias Sociales y Humanidades</span>
+          <ul>
+            <li><a href="/maestrias/educacion-cognitiva"><span>»</span> Especialidad en Educación Cognitiva</a></li>
+            <li><a href="/maestrias/educacion-temprana-preescolar"><span>»</span> Especialidad en Educación Temprana y Preescolar</a></li>
+          </ul>
+          <hr />
+          <span class="title">Educación Continua</span>
+          <span class="area">Área de la Salud</span>
+          <ul>
+          <!--El que se tiene que modificar-->
+            <li><a href="/doctorados/terapeutica"><span>»</span> Diplomado en Terapéutica Homeopática por Especialidad</a></li>
+            <li><a href="/diplomados/psicologia-del-deporte"><span>»</span> Diplomado en Psicología del Deporte y Salud para el Desarrollo Humano</a></li>
+            <li><a href="/diplomados/nutricion-esencial"><span>»</span> Diplomado en Nutrición Esencial</a></li>
+          </ul>
+          <span class="area">Área Ciencias Sociales y Humanidades</span>
+          <ul>
+            <li><a href="/diplomados/coaching-humanista-profesionistas"><span>»</span> Diplomado Coaching Humanista para Profesionistas</a></li>
+            <li><a href="/diplomados/yoga-integral"><span>»</span> Diplomado en Yoga Integral</a></li>
+          </ul>
+          <span class="area">Áreas Administrativas</span>
+          <ul>
+            <li><a href="/diplomados/asesor-financiero-estrategias-inversion"><span>»</span> Diplomado Asesor Financiero en Estrategias de Inversión</a></li>
+          </ul>
+          </ul>
+        </div>
+      </div>
+      <!--<div class="side">
+        <span class="title">¿Por qué estudiar en la UNAG?</span>
+        <hr />
+        <ul>
+          <li><a href="/nosotros/horarios"><span>»</span> Horarios Flexibles</a></li>
+          <li><a href="/ventajas"><span>»</span> Ventajas UNAG</a></li>
+          <li><a href="/admisiones/requisitos"><span>»</span> Requisitos de Admisión</a></li>
+          <li><a href="/admisiones/calendario"><span>»</span> Fechas de Inicio de Clases</a></li>
+          <li><a href="/admisiones/calendario"><span>»</span> Calendario Escolar</a></li>
+          <li><a href="/nosotros/testimoniales"><span>»</span> Testimoniales</a></li>
+          <li><a href="/ventajas#sistema"><span>»</span> ¿Qué es un Sistema Semiescolarizado?</a></li>
+          <li><a href="/descargables#titulacion"><span>»</span> Formas de Titulación</a></li>
+          <li><a href="/nosotros#sep"><span>»</span> Incorporado a la SEP y SEJ</a></li>
+          <li><a href="/ventajas#becas"><span>»</span> Becas y Apoyos Financieros</a></li>
+        </ul>
+      </div>-->
+    </div>
+    <a href="/nosotros" class="toggle" id="toggle-aboutus">Nosotros</a>
+    <div id="nav-aboutus" class="container" style="display:none;">
+      <div class="main">
+        <div class="column us">
+          <span class="title">Nosotros</span>
+          <hr />
+          <ul>
+            <li><a href="/nosotros"><span>»</span> Nosotros</a></li>
+            <li><a href="/nosotros#pilares"><span>»</span> Modelo Humanista PILARES</a></li>
+          </ul>
+        </div>
+        <div class="column campuses">
+          <span class="title">Planteles</span>
+          <hr />
+          <ul>
+            <li><a href="/planteles"><span>»</span> Plantel Minerva</a></li>
+            <li><a href="/planteles/lopez"><span>»</span> Plantel López Mateos</a></li>
+            <li><a href="/planteles/zapotlanejo"><span>»</span> Centro de Enlace Zapotlanejo</a></li>
+          </ul>
+        </div>
+        <div class="column three advantages">
+          <span class="title">Ventajas de estudiar en la UNAG</span>
+          <hr />
+          <div class="column">
+            <ul>
+              <li><a href="/nosotros#sep"><span>»</span> Incorporado a la SEP, SICYT y SEJ </a></li>
+              <li><a href="/docencia"><span>»</span> Equipo Docente UNAG</a></li>
+              <li><a href="/nosotros#valores"><span>»</span> Nuestros Valores</a></li>
+              <!--<li><a href="/nosotros/horarios"><span>»</span> Horarios Flexibles</a></li>-->
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <!---<li><a href="/universidad"><span>»</span> Universidad UNESCO</a></li>--->
+              <li><a href="/alianzas"><span>»</span> Alianzas estratégicas</a></li>
+              <li><a href="/nosotros/videos"><span>»</span> Galería de videos</a></li>
+              <!--<li><a href="/ventajas#becas"><span>»</span> Becas y Apoyos Financieros</a></li>-->
+              
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="/clinica"><span>»</span> Clínica Armonía de Vida</a></li>
+              <li><a href="/revista"><span>»</span> Revista Pilares</a></li>
+
+              <!--=============Link revista girum=============================================-->
+              <li><a href="https://revistagirum.com/"><span>»</span> Revista Girum</a></li>
+
+              <!--=============Anterior revista girum=============================================-->
+              <!-- <li><a href="/revista/girum"><span>»</span> Revista Girum</a></li>     -->
+              <!--=============Anterior revista girum=============================================-->
+
+              <li><a href="http://www.unag.mx/iseg/publicaciones/" target="_blank"><span>»</span> Publicaciones</a></li>
+              <!--<li><a href="/alumnos" target="_blank"><span>»</span> Servicios</a></li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        <a href="/alumnos" class="toggle" id="toggle-students">Alumnos</a>
+    <div id="nav-students" class="container" style="display:none;">
+      <div class="main">
+        <div class="column">
+          <span class="title">Servicios</span>
+          <hr />
+          <ul>
+            <!-- <li><a href="http://www.unag.mx/iseg/biblioteca/" target="_blank"><span>»</span> Biblioteca</a></li> -->
+            <li><a href="/alumnos/biblioteca"><span>»</span> Biblioteca</a></li>
+            <li><a href="/alumnos/caja"><span>»</span> Caja</a></li>
+            <li><a href="/alumnos/sistemas"><span>»</span> Sistemas</a></li>
+            <li><a href="/alumnos/laboratorios"><span>»</span> Laboratorios y Talleres</a></li>
+            <li><a href="/clinica"><span>»</span> Clínica Armonía de Vida</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="title">Tramites</span>
+          <hr />
+          <ul>
+            <li><a href="/ventajas#becas"><span>»</span> Becas</a></li>
+            <li><a href="/alumnos/practicas"><span>»</span> Prácticas y Servicio Social</a></li>
+            <li><a href="/alumnos/titulacion"><span>»</span> Titulación</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="title">Intranet</span>
+          <hr />
+          <ul>
+            <li><a href="https://unag.academic.lat/Autenticacion.aspx" target="_blank"><span>»</span> Portal Alumnos</a></li>
+            <li><a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.google.com%2Fa%2Fcpanel%2Funag.mx%2FDashboard&amps;service=CPanel&amps;skipvpage=true&amps;authuser=0" target="_blank"><span>»</span> Consulta tu Correo</a></li>
+            <li><a href="http://antropologica.we-know.net/login/index.php" target="_blank"><span>»</span> Plataforma Moodle</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <span class="title">Otros</span>
+          <hr />
+          <ul>
+            <li><a href="/descargables"><span>»</span> Archivos Descargables</a></li>
+            <li><a href="/admisiones/calendario"><span>»</span> Calendarios</a></li>
+			  <li><a href="https://anydesk.com/es" target="_blank"><span>»</span>Any Desk</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="info-modal">
+    <a href="mailto:informes@unag.mx" class="toggle">informes@unag.mx</a>
+    <!-- <form action="/contacto" method="post">
+      <span class="title">Envíanos tus dudas y a la brevedad nos pondremos en contacto contigo.</span>
+      <label for="nombre">Nombre Completo</label>
+      <input type="text" name="nombre" id="nombre" />
+      <label for="correo">Correo Electrónico</label>
+      <input type="text" name="correo" id="correo" />
+      <label for="programa">Programa de tu interés</label>
+      <select name="programa" id="programa" class="form-control">
+        <option value="">Selecciona un programa</option>
+        <option value="Licenciatura en Desarrollo Humano">Licenciatura   en Desarrollo Humano</option>
+        <option value="Licenciatura en Derecho">Licenciatura en   Derecho</option>
+        <option value="Licenciatura en Educación">Licenciatura en  Educación</option>
+        <option value="Licenciatura en Homeopatía">Licenciatura en   Homeopatía</option>
+        <option value="Licenciatura en Mercadotecnia y Publicidad"> Licenciatura en Mercadotecnia y Publicidad</option>
+        <option value="Licenciatura en Negocios Internacionales"> Licenciatura en Negocios Internacionales</option>
+        <option value="Licenciatura en Nutrición">Licenciatura en  Nutrición</option>
+        <option value="Licenciatura en Orientación Familiar">  Licenciatura en Orientación Familiar</option>
+        <option value="Licenciatura en Psicología">Licenciatura en   Psicología</option>
+        <option value="Licenciatura en Administración de Empresas">  Licenciatura en Administración de Empresas</option>
+        <option value="Licenciatura en Contabilidad y Finanzas"> Licenciatura en Contabilidad y Finanzas</option>
+        <option value="Diplomado en Psicología del Deporte y Salud para el Deporte">Diplomado en Psicología del Deporte y Salud para el Deporte</option>
+        <option value="Especialidad en Educación Cognitiva"> Especialidad en Educación Cognitiva</option>
+        <option value="Especialidad en Terapéutica Homeopática"> Especialidad en Terapéutica Homeopática</option>
+        <option value="Maestría en Administración de Negocios">  Maestría en Administración de Negocios</option>
+        <option value="Maestría en Bioenergía Y Desarrollo Humano">  Maestría en Bioenergía Y Desarrollo Humano</option>
+        <option value="Maestría en Ciencias Humanas">Maestría en   Ciencias Humanas</option>
+        <option value="Maestría en Ciencias Y Técnicas Para Orientación Familiar">Maestría en Ciencias Y Técnicas Para Orientación Familiar</option>
+        <option value="Maestría en Gestión Directiva">Maestría en  Gestión Directiva</option>
+        <option value="Maestria en Innovacion Educativa">Maestria en   Innovacion Educativa</option>
+        <option value="Maestría en Nutrición">Maestría en Nutrición</  option>
+        <option value="Maestria en Psicología Transpersonal">  Maestria en Psicología Transpersonal</option>
+        <option value="Doctorado en Alta Dirección">Doctorado en Alta  Dirección</option>
+        <option value="Doctorado en Desarrollo Humano">Doctorado en  Desarrollo Humano</option>
+        <option value="UNAG a distancia">UNAG a distancia</option>
+      </select>
+      <label for="duda">Duda</label>
+      <textarea name="duda" id="duda" cols="30" rows="10"></textarea>
+      <button type="submit">Enviar dudas</button>
+      <a href="/privacidad">Consulta nuestro Aviso de Privacidad</a>
+    </form> -->
+  </div>
+  <div id="content-wrapper">
+    <div class="home-slider">
+      <ul class="slider">
+		  
+          <picture class="slide">
+            <source media="(min-width: 1280px)" srcset="/content/sliders/Inscripciones21-1280x400web.jpg">
+            <source media="(min-width: 768px)" srcset="/content/sliders/Inscripciones21-768X236web.jpg">
+            <img src="/content/sliders/Inscripciones21-400X250web.jpg" alt="">
+          </picture>
+          <picture class="slide">
+            <source media="(min-width: 1280px)" srcset="/content/sliders/2021Bienvenido1280x400.jpg">
+            <source media="(min-width: 768px)" srcset="/content/sliders/2021Bienvenido768X236.jpg">
+            <img src="/content/sliders/2021Bienvenido400X250.jpg" alt="">
+          </picture>
+          <picture class="slide">
+            <source media="(min-width: 1280px)" srcset="/content/sliders/SoyH-1280x400.jpg">
+            <source media="(min-width: 768px)" srcset="/content/sliders/SoyH-768X236.jpg">
+            <img src="/content/sliders/SoyH-400X250.jpg" alt="">
+          </picture>  
+    </div>
+    <ul id="home-nav">
+      <li class="home-nav-1">
+        <a href="/licenciaturas">
+          <span class="label">Nuestras<br />Licenciaturas</span>
+          <span class="btn">Ver más</span>
+        </a>
+      </li>
+      <li class="home-nav-2">
+        <a href="/maestrias">
+          <span class="label">Nuestros<br />Posgrados</span>
+          <span class="btn">Ver más</span>
+        </a>
+      </li>
+      <li class="home-nav-3">
+        <a href="/admisiones/calendario">
+          <span class="label">Fechas de<br />Inicio de Clases</span>
+          <span class="btn">Ver más</span>
+        </a>
+      </li>
+      <li class="home-nav-4">
+        <a href="/nosotros/horarios">
+          <span class="label">Horarios<br />flexibles</span>
+          <span class="btn">Ver más</span>
+        </a>
+      </li>
+    </ul>
+    <div id="content-container">
+      <div class="content-home">
+        <div id="home-career-master">
+          <h4 class="home-career-master-title"><a href="/licenciaturas">Licenciaturas</a></h4>
+          <div id="home-career-container">
+            <div id="home-career-slider">
+              <div class="home-career">
+                <a href="/licenciaturas/administracion"><img src="/content/degrees/degree-7_t.jpg" /></a>
+                <a href="/licenciaturas/administracion" class="name blue">Lic. en Administración de Negocios</a>
+                <div class="description">
+                  Hoy en día las instituciones y organizaciones empresariales y sociales...
+                  <a href="/licenciaturas/administracion" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/contabilidad"><img src="/content/degrees/degree-8_t.jpg" /></a>
+                <a href="/licenciaturas/contabilidad" class="name purple">Licenciatura en Contabilidad y Finanzas</a>
+                <div class="description">
+                  La Contaduría es una disciplina que, a través de procesos definidos...
+                  <a href="/licenciaturas/contabilidad" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/nutricion"><img src="/content/degrees/degree-4_t.jpg" /></a>
+                <a href="/licenciaturas/nutricion" class="name green">Licenciatura en Nutrición</a>
+                <div class="description">
+                  México ocupa el segundo lugar mundial en sobrepeso y obesidad...
+                  <a href="/licenciaturas/nutricion" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/desarrollo-humano"><img src="/content/degrees/degree-1_t.jpg" /></a>
+                <a href="/licenciaturas/desarrollo-humano" class="name orange">Licenciatura en Desarrollo Humano</a>
+                <div class="description">
+                  La evolución de nuestro mundo presente requiere a mejores personas...
+                  <a href="/licenciaturas/desarrollo-humano" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/educacion"><img src="/content/degrees/degree-2_t.jpg" /></a>
+                <a href="/licenciaturas/educacion" class="name aqua">Licenciatura en Educación</a>
+                <div class="description">
+                  La Universidad Antropológica de Guadalajara, desde su orientación...
+                  <a href="/licenciaturas/educacion" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/homeopatia"><img src="/content/degrees/degree-3_t.jpg" /></a>
+                <a href="/licenciaturas/homeopatia" class="name lightblue">Licenciatura en Homeopatía</a>
+                <div class="description">
+                  La tendencia social en materia de salud, coincide con planteamientos...
+                  <a href="/licenciaturas/homeopatia" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/psicologia-familiar"><img src="/content/degrees/degree-5_t.jpg" /></a>
+                <a href="/licenciaturas/psicologia-familiar" class="name armygreen">Licenciatura en Psicología Familiar</a>
+                <div class="description">
+                  El mundo moderno global ha permitido avances en comunicación...
+                  <a href="/licenciaturas/psicologia-familiar" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/psicologia-social"><img src="/content/degrees/degree-6_t.jpg" /></a>
+                <a href="/licenciaturas/psicologia-social" class="name lightpurple">Licenciatura en Psicología Social</a>
+                <div class="description">
+                  La persona, la familia, la sociedad: requieren conciencia para alcanzar...
+                  <a href="/licenciaturas/psicologia-social" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/derecho"><img src="/content/degrees/degree-10_t.jpg" /></a>
+                <a href="/licenciaturas/derecho" class="name blue">Licenciatura en Derecho</a>
+                <div class="description">
+                  Con el aumento de la población, las condiciones globales de mercado...
+                  <a href="/licenciaturas/derecho" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/negocios"><img src="/content/degrees/degree-11_t.jpg" /></a>
+                <a href="/licenciaturas/negocios" class="name purple">Licenciatura en Negocios Internacionales</a>
+                <div class="description">
+                  En el actual mundo de los negocios los retos para lograr la efectividad...
+                  <a href="/licenciaturas/negocios" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/licenciaturas/mercadotecnia"><img src="/content/degrees/degree-12_t.jpg" /></a>
+                <a href="/licenciaturas/mercadotecnia" class="name green">Lic. en Mercadotecnia y Publicidad</a>
+                <div class="description">
+                  El paradigma mercadológico en el mundo globalizado se ha vuelto...
+                  <a href="/licenciaturas/mercadotecnia" class="more">Leer más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" id="home-degrees-left" class="arrow-left"></a>
+          <a href="#" id="home-degrees-right" class="arrow-right"></a>
+          <a href="/maestrias" class="btn show-xs">Ver más licenciaturas</a>
+          <h4 class="home-career-master-title"><a href="/maestrias">Posgrados y Educación Continua</a></h4>
+          <div id="home-master-container">
+            <div id="home-master-slider">
+              <div class="home-career">
+                <a href="/maestrias/nutricion"><img src="/content/masters/master-7_t.jpg" /></a>
+                <a href="/maestrias/nutricion" class="name navyblue">Maestría en Nutrición</a>
+                <div class="description">
+                  Los profesionales de la salud en su tarea clínica de diagnóstico y tratamiento...
+                  <a href="/maestrias/nutricion" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/doctorados/terapeutica"><img src="/content/doctorates/doctorate-3_t.jpg" /></a>
+                <a href="/doctorados/terapeutica" class="name darkergreen">Especialidad en Terapéutica Homeopática</a>
+                <div class="description">
+                  Es un reto conjugar el conocimiento, la ciencia, el arte y la experiencia...
+                  <a href="/doctorados/terapeutica" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/psicologia-transpersonal"><img src="/content/masters/master-8_t.jpg" /></a>
+                <a href="/maestrias/psicologia-transpersonal" class="name gold">Maestria en Psicología Transpersonal</a>
+                <div class="description">
+                  Si la causa de los problemas está en los hombres y mujeres como tales, también la solución...
+                  <a href="/maestrias/psicologia-transpersonal" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/educacion-cognitiva"><img src="/content/masters/master-1_t.jpg" /></a>
+                <a href="/maestrias/educacion-cognitiva" class="name orange">Especialidad en Educación Cognitiva</a>
+                <div class="description">
+                  Ante un panorama adverso en el área de la educación, resultado de las condiciones sociales...
+                  <a href="/maestrias/educacion-cognitiva" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/bioenergia"><img src="/content/masters/master-2_t.jpg" /></a>
+                <a href="/maestrias/bioenergia" class="name green">Maestría en Bioenergía y Desarrollo Humano</a>
+                <div class="description">
+                  El paradigma del desarrollo humano, en el mundo globalizado de altos retos sociales...
+                  <a href="/maestrias/bioenergia" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/innovacion-educativa"><img src="/content/masters/master-6_t.jpg" /></a>
+                <a href="/maestrias/innovacion-educativa" class="name purple">Maestría en Innovación Educativa</a>
+                <div class="description">
+                  Ante un panorama adverso en el área de la educación, resultado de las condiciones sociales...
+                  <a href="/maestrias/innovacion-educativa" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/ciencias-humanas"><img src="/content/masters/master-3_t.jpg" /></a>
+                <a href="/maestrias/ciencias-humanas" class="name blue">Maestría en Ciencias Humanas</a>
+                <div class="description">
+                  En el contexto actual, los retos sociales, económicos y políticos se han encontrado...
+                  <a href="/maestrias/ciencias-humanas" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/orientacion-familiar"><img src="/content/masters/master-4_t.jpg" /></a>
+                <a href="/maestrias/orientacion-familiar" class="name lightpurple">Ciencias y Técnicas Para Orientación Familiar</a>
+                <div class="description">
+                  Actualmente vivimos tiempos de retos sociales y económicos, crisis de marginación...
+                  <a href="/maestrias/orientacion-familiar" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/administracion"><img src="/content/masters/master-9_t.jpg" /></a>
+                <a href="/maestrias/administracion" class="name skyblue">Administración de Negocios</a>
+                <div class="description">
+                  La administración de los negocios contemporáneos requiere...
+                  <a href="/maestrias/administracion" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/maestrias/gestion-directiva"><img src="/content/masters/master-5_t.jpg" /></a>
+                <a href="/maestrias/gestion-directiva" class="name armygreen">Maestría en Gestión Directiva</a>
+                <div class="description">
+                  La gestión directiva con enfoque humano y eficiencia organizacional...
+                  <a href="/maestrias/gestion-directiva" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/doctorados/alta-direccion"><img src="/content/doctorates/doctorate-1_t.jpg" /></a>
+                <a href="/doctorados/alta-direccion" class="name aqua">Doctorado en Alta Dirección</a>
+                <div class="description">
+                  El reto fundamental para las instituciones y empresas del siglo XXI...
+                  <a href="/doctorados/alta-direccion" class="more">Leer más</a>
+                </div>
+              </div>
+              <div class="home-career">
+                <a href="/doctorados/desarrollo-humano"><img src="/content/doctorates/doctorate-2_t.jpg" /></a>
+                <a href="/doctorados/desarrollo-humano" class="name purple">Doctorado en Desarrollo Humano</a>
+                <div class="description">
+                  El interés por el desarrollo humano se ha incrementado en los últimos tiempos...
+                  <a href="/doctorados/desarrollo-humano" class="more">Leer más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" id="home-master-left" class="arrow-left"></a>
+          <a href="#" id="home-master-right" class="arrow-right"></a>
+          <a href="/maestrias" class="btn show-xs">Ver más posgrados</a>
+        </div>
+        <div id="home-videos">
+          <h4 class="title show-tablet">Galería de Videos</h4>
+		  <div class="home-video home-second">
+			<!--<a href="https://www.youtube.com/embed/Cu-MCFBh-ek?autoplay=1" class="video" rel="gallery"></a>-->
+		    <a href="https://www.youtube.com/embed/Cu-MCFBh-ek?autoplay=1" class="video" rel="gallery"></a>
+          </div>
+          <div class="home-video">
+            <!--<a href="http://www.youtube.com/embed/DhuFfrj01Ww?autoplay=1" class="video" rel="gallery"></a>-->
+            <a href="https://www.youtube.com/embed/vifd8_ftPoA?autoplay=1" class="video" rel="gallery"></a>
+          </div>
+          
+          <a href="/nosotros/videos" class="btn">Ver más videos</a>
+        </div>
+      </div>
+    </div>
+    <div id="home-footer">
+      <div id="home-footer-content">
+        <div id="home-aliance">
+          <div class="footer-aliance-container">
+            <div class="footer-aliance-item">
+              <span class="name">Alianzas Estratégicas</span>
+              <p>Contamos con el respaldo de  reconocidas instituciones a nivel nacional, además de estar acreditados por la Secretaría de Educación  Jalisco.</p>
+            </div>
+            <div id="home-aliances">
+              <div class="home-aliance 1">
+                <img src="/views/images/alliances_gob_jal.png" style="width:50px;" />
+              </div>
+              <div class="home-aliance 2">
+                <img src="/views/images/alliances-sep-2012.png" style="width:135px;" />
+              </div>
+              <div class="home-aliance 3">
+                <img src="/views/images/home-aliance-1_2x.png" style="width:148px;" />
+              </div>
+              <div class="home-aliance 4">
+                <img src="/views/images/alliances-comercio-tr.png" style="width:100px;" />
+              </div>
+              <div class="home-aliance 5">
+                <img src="/views/images/alliances-coparmex-tr.png" style="width:50px;" />
+              </div>
+              <!--<div class="home-aliance 2">
+                <img src="/views/images/home-aliance-2_2x.png" style="width:74px;" />
+              </div>
+              <div class="home-aliance 3">
+                <img src="/views/images/home-aliance-3_2x.png" style="width:74px;" />
+              </div>
+              <div class="home-aliance 4">
+                <img src="/views/images/home-aliance-4_2x.png" style="width:41px;" />
+              </div>-->
+              <div class="home-aliance">
+                <a href="/alianzas" class="more">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="home-sidebar">
+          <a id="home-calendar" href="/admisiones/calendario"></a>
+          <a id="home-unesco" href="/universidad"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-careers" style="display:none;">
+    <h2 class="title">Otros <strong>Programas UNAG</strong></h2>
+    <div class="footer-careers-container">
+      <div class="career blue">
+        <a href="/licenciaturas/administracion/"><img src="/content/degrees/degree-7_s.jpg" /></a>
+        <span class="name">Lic. en Administración de Empresas</span>
+      </div>
+      <div class="career purple">
+        <a href="/licenciaturas/contabilidad/"><img src="/content/degrees/degree-8_s.jpg" /></a>
+        <span class="name">Lic. en Contabilidad y Finanzas</span>
+      </div>
+      <div class="career green">
+        <a href="/licenciaturas/nutricion/"><img src="/content/degrees/degree-4_s.jpg" /></a>
+        <span class="name">Lic. en Nutrición</span>
+      </div>
+    </div>
+  </div>
+  <div id="footer-wrapper">
+    <div id="footer">
+      <div id="footer-content">
+        <div class="section" style="width: 25%;">
+          <!--<span class="title">Casa UNAG</span>
+          <p>José Guadalupe Zuno 1881, Gdl.</p>
+          <p>Jal. Tel. (33) 3826.1363 / (33) 3826.1483</p>-->
+          <span class="title">Plantel Minerva</span>
+          <p class="small">Av. De La Paz 2873, Col. Los Arcos Sur</p>
+          <p class="small">CP. 44130, Guadalajara, Jalisco, México.</p>
+          <!--<p class="small">Tel. (+52) (33) 3826.1363</p>--->
+        </div>
+        <div class="section" style="width: 25%;">
+          <span class="title">Plantel López Mateos</span>
+          <p class="small">Av. López Mateos Sur 4195, Col. La Calma</p>
+          <p class="small">CP. 45070, Zapopan, Jalisco, México.</p>
+         <!---<p class="small"> Tel. (+52) (33) 3826.1363</p>--->
+        </div>
+        <div class="section info" style="border-right: 1px solid #fff; width: 20%;">     
+          <!--<a href="mailto:informes@unag.mx" class="mail">informes@unag.mx</a>-->
+          <span class="footer-phone">3826.1363</span>
+        </div>
+        <div class="section social" style="width: 25%;">
+          <h1 id="wp" class="col-md-5"><a href="https://api.whatsapp.com/send?phone=523338149808&text=Quiero%20Información%20PorFavor."></a></h1>
+          <div class="col-md-7">
+          <p>Síguenos en</p>
+          <a href="https://www.facebook.com/pages/UNAG-Universidad-Antropológica-de-Guadalajara/688118537865354" target="_blank" class="fb"></a>
+          <a href="https://www.instagram.com/unagoficial/" target="_blank" class="instagram"></a>
+          <a href="https://twitter.com/UNAGoficial" target="_blank" class="twitter"></a>
+          <a href="https://www.youtube.com/user/UNAGJALISCO" class="yt" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Scripts: -->
+<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/views/js/modernizr.custom.93022.js"></script>
+<script type="text/javascript" src="/views/js/unag.js"></script>
+<script type="text/javascript" src="/views/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
+  $(".video").fancybox({
+    'transitionIn'  : 'none',
+    'transitionOut' : 'none',
+    'type'        : 'iframe'
+  });
+});
+</script>
+<!-- /Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript">unag.homeInit();</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slider').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    arrows: false,
+  });
+});
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1016729307;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1016729307/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51004500-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1911616192397370');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1911616192397370&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</body>
+</html>

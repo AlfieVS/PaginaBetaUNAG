@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Universidad en Línea</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/views/css/style-uad.css">
+    <link rel="stylesheet" href="style-uad.css">
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="/views/js/jquery-2.1.3.uad.js"></script>
+<script type="text/javascript" src="/views/js/unag-uad.js"></script>
+    </head>
+<body>
+<div id="header">
+  <h1 id="logo">
+    <a href="http://unagadistancia.mx"><span>UNAG a distancia</span></a>
+  </h1>
+  <div id="header-social">
+    <a href="https://www.facebook.com/pages/UNAG-Universidad-Antropológica-de-Guadalajara/688118537865354" target="_blank" class="fb"></a>
+    <a href="https://www.youtube.com/user/UNAGJALISCO" target="_blank" class="yt"></a>
+  </div>
+  <div id="header-data">
+    <div id="header-contact">
+      <div class="phone">01 800 000 UNAG</div>
+      <div class="mail"><a href="/contacto/">distancia@unag.mx</a></div>
+    </div>
+    <form action="http://antropologica.we-know.net/login/index.php" method="post">
+      <label>Acceso a estudiantes</label>
+      <input type="text" name="username" placeholder="Usuario" />
+      <input type="password" name="password" placeholder="Contraseña" />
+      <button type="submit" id="loginbtn">Enviar</button>
+      <!-- <a href="#">¿Olvidaste tu contraseña?</a> -->
+    </form>
+  </div>
+</div>
+<a href="#" id="nav-toggle"></a>
+<div id="nav-container">
+  <div id="nav">
+    <ul>
+      <li class="current"><a href="http://unagadistancia.mx">Home</a></li>
+      <li>
+        <a href="/programas/">Programas</a>
+        <ul>
+          <li><a href="/programas/#program-1">Licenciatura en Derecho</a></li>
+          <li><a href="/programas/#program-2">Licenciatura en Administración de Negocios</a></li>
+          <li><a href="/programas/#program-3">Licenciatura en Contabilidad y Finanzas</a></li>
+          <li><a href="/programas/#program-4">Licenciatura en Mercadotecnia y Publicidad</a></li>
+          <li><a href="/programas/#program-5">Licenciatura en Negocios Internacionales</a></li>
+          <li><a href="/programas/#program-6">Maestría en Admin. de Negocios</a></li>
+          <li><a href="/programas/#program-8">Maestría en Psicología Transpersonal</a></li>
+          <li><a href="/programas/#program-7">Doctorado en Desarrollo Humano</a></li>
+        </ul>
+      </li>
+      <li><a href="/como/">¿Cómo funciona?</a></li>
+      <li><a href="/porque/">¿Por qué estudiar en UNAG a distancia?</a></li>
+      <li><a href="/requisitos/">Requisitos</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contacto/">Contacto</a></li>
+    </ul>
+  </div>
+</div>
+<div class="section hero">
+  <div class="hero-image">
+    <img src="/views/images/heroes/hero-home.jpg" class="center" />
+  </div>
+  <div class="caption small">
+    <strong class="light">Estudia en línea</strong>
+    <strong>una Licenciatura o Posgrado</strong>
+    <strong>con Validez Oficial SEP</strong>
+    <strong>desde tu casa</strong>
+    <strong>o cualquier lugar</strong>
+  </div>
+</div>
+<div id="hero-login">
+  <a href="#" id="login-toggle" class="title">Acceso a estudiantes</a>
+  <form action="/contacto/" method="post">
+    <div class="form-group">
+      <input type="text" name="name" id="name" placeholder="Usuario" />
+    </div>
+    <div class="form-group">
+      <input type="password" name="lastname" id="lastname" placeholder="Contraseña" />
+    </div>
+    <button type="submit" class="btn btn-clear">Envíar</button>
+  </form>
+</div>
+<div id="info">
+  <span class="title">Solicita más información</span>
+  <form action="/contacto/" method="post">
+    <div class="form-group">
+      <label for="name">Nombre(s)</label>
+      <input type="text" name="name" id="name" />
+    </div>
+    <div class="form-group">
+      <label for="lastname">Apellidos</label>
+      <input type="text" name="lastname" id="lastname" />
+    </div>
+    <div class="form-group">
+      <label for="lastname">Estado</label>
+      <select name="state" id="state">
+        <option value="Aguascalientes">Aguascalientes</option>
+        <option value="Baja California">Baja California</option>
+        <option value="Baja California Sur">Baja California Sur</option>
+        <option value="Campeche">Campeche</option>
+        <option value="Chiapas">Chiapas</option>
+        <option value="Chihuahua">Chihuahua</option>
+        <option value="Coahuila">Coahuila</option>
+        <option value="Colima">Colima</option>
+        <option value="Distrito Federal">Distrito Federal</option>
+        <option value="Durango">Durango</option>
+        <option value="Estado de México">Estado de México</option>
+        <option value="Guanajuato">Guanajuato</option>
+        <option value="Guerrero">Guerrero</option>
+        <option value="Hidalgo">Hidalgo</option>
+        <option value="Jalisco">Jalisco</option>
+        <option value="Michoacán">Michoacán</option>
+        <option value="Morelos">Morelos</option>
+        <option value="Nayarit">Nayarit</option>
+        <option value="Nuevo León">Nuevo León</option>
+        <option value="Oaxaca">Oaxaca</option>
+        <option value="Puebla">Puebla</option>
+        <option value="Querétaro">Querétaro</option>
+        <option value="Quintana Roo">Quintana Roo</option>
+        <option value="San Luis Potosí">San Luis Potosí</option>
+        <option value="Sinaloa">Sinaloa</option>
+        <option value="Sonora">Sonora</option>
+        <option value="Tabasco">Tabasco</option>
+        <option value="Tamaulipas">Tamaulipas</option>
+        <option value="Tlaxcala">Tlaxcala</option>
+        <option value="Veracruz">Veracruz</option>
+        <option value="Yucatán">Yucatán</option>
+        <option value="Zacatecas">Zacatecas</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="city">Ciudad</label>
+      <input type="text" name="city" id="city" />
+    </div>
+    <div class="form-group">
+      <div class="form-subgroup small">
+        <label for="age">Edad</label>
+        <input type="text" name="age" id="age" />
+      </div>
+      <div class="form-subgroup medium">
+        <label for="phone">Teléfono</label>
+        <input type="text" name="phone" id="phone" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="mail">Correo Electrónico</label>
+      <input type="text" name="mail" id="mail" />
+    </div>
+    <div class="form-group">
+      <label for="mail_confirm">Confirma tu Correo Electrónico</label>
+      <input type="text" name="mail_confirm" id="mail_confirm" />
+    </div>
+    <div class="form-group">
+      <label for="phone">Programa de interés</label>
+      <select name="program" id="program">
+        <option value="Lic. en Derecho">Lic. en Derecho</option>
+        <option value="Lic. en Administración de Negocios">Lic. en Administración de Negocios</option>
+        <option value="Lic. en Contabilidad y Finanzas">Lic. en Contabilidad y Finanzas</option>
+        <option value="Lic. en Mercadotecnia y Publicidad">Lic. en Mercadotecnia y Publicidad</option>
+        <option value="Lic. en Negocios Internacionales">Lic. en Negocios Internacionales</option>
+        <option value="Maestría en Admin. de Negocios">Maestría en Admin. de Negocios</option>
+        <option value="Maestría en Psicología Transpersonal">Maestría en Psicología Transpersonal</option>
+        <option value="Doctorado en Desarrollo Humano">Doctorado en Desarrollo Humano</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-clear" onClick="ga('send', 'event', 'contacto', 'envio');">Enviar información</button>
+    <p>Consulta nuestro <a href="/privacidad/">Aviso de Privacidad</a></p>
+  </form>
+  <a href="#" id="pull-down"></a>
+</div>
+<div class="section" id="home">
+  <div class="container">
+    <h3>Nuestra <strong>oferta educativa en línea</strong></h3>
+    <div class="programs">
+      <div class="row-4">
+        <h5>Licenciaturas</h5>
+        <ul class="list">
+          <li class="head"><a href="/programas/#program-1">Licenciatura en <strong>Derecho</strong></a></li>
+          <li><a href="/programas/#program-2">Licenciatura en <strong>Administración de Negocios</strong></a></li>
+          <li><a href="/programas/#program-3">Licenciatura en <strong>Contabilidad y Finanzas</strong></a></li>
+          <li><a href="/programas/#program-4">Licenciatura en <strong>Mercadotecnia y Publicidad</strong></a></li>
+          <li><a href="/programas/#program-5">Licenciatura en <strong>Negocios Internacionales</strong></a></li>
+        </ul>
+      </div>
+      <div class="row-4">
+        <h5>Posgrados</h5>
+        <ul class="list">
+          <li><a href="/programas/#program-6">Maestría en <strong>Administración de Negocios</strong></a></li>
+          <li class="head"><a href="/programas/#program-8">Maestría en <strong>Psicología Transpersonal</strong></a></li>
+          <li class="head"><a href="/programas/#program-7">Doctorado en <strong>Desarrollo Humano</strong></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row-4">
+      <img src="/views/images/banner-sep.jpg" alt="Incorporados a la SEP" style="width:283px;" />
+      <br />
+      <br />
+      <br />
+    </div>
+  </div>
+</div>
+<div class="section blue">
+  <div class="container no-pad">
+    <div class="row-4 home-info">
+      <div class="image-icon">
+        <a href="/porque/"><img src="/views/images/image-computer.png" alt="En Línea" /></a>
+      </div>
+      <span class="title">¿Por qué <strong>En Línea</strong>?</span>
+      <p>Porque aprovechando la tecnología podrás estudiar desde cualquier lugar, sin horarios y con la más alta calidad académica, y así prepararte profesionalmente sin descuidar otras actividades</p>
+      <a href="/porque/" class="more"></a>
+      <a href="/porque/" class="full"></a>
+    </div>
+    <div class="row-4 home-info alt">
+      <div class="image-icon">
+        <a href="/porque/"><img src="/views/images/image-tasks.png" alt="UNAG a distancia" /></a>
+      </div>
+      <span class="title">¿Por qué <strong>UNAG a distancia</strong>?</span>
+      <p>Porque en UNAG a distancia contamos con los mejores planes de estudios, maestros altamente calificados y educación personalizada, además de un método de estudio fácil, práctico y para todos</p>
+      <a href="/porque/" class="more"></a>
+      <a href="/porque/" class="full"></a>
+    </div>
+    <div class="row-4 home-info">
+      <div class="image-icon">
+        <a href="http://unag.mx/" target="_blank"><img src="/views/images/image-document.png" alt="Nuestro Respaldo" /></a>
+      </div>
+      <span class="title">Nuestro <strong>Respaldo</strong></span>
+      <p>UNAG a distancia es parte de la Universidad Antropológica de Guadalajara, la cual cuenta con 30 años de experiencia, reconocimientos internacionales a la calidad académica y la mejor plantilla docente</p>
+      <a href="http://unag.mx/" target="_blank" class="more"></a>
+      <a href="http://unag.mx/" target="_blank" class="full"></a>
+    </div>
+  </div>
+</div>
+<div class="section light">
+  <div class="container">
+    <div class="row-4 home-links">
+      <div class="icon"><img src="/views/images/icon-computer.png" style="width:87px;" /></div>
+      <div class="content">
+        <span class="title">Requisitos de <strong>admisión</strong></span>
+        <a href="/requisitos/" class="more">Clic aquí</a>
+      </div>
+      <a href="/requisitos/" class="full"></a>
+    </div>
+    <div class="row-4 home-links">
+      <div class="icon"><img src="/views/images/icon-calendar.png" style="width:63px;" /></div>
+      <div class="content">
+        <span class="title">Calendario de <strong>inscripciones</strong></span>
+        <a href="http://www.portal-unag.com.mx/content/downloads/calendario_unag_16_2.jpg" target="_blank" class="more">Clic aquí</a>
+      </div>
+      <a href="http://www.portal-unag.com.mx/content/downloads/calendario_unag_16_2.jpg" target="_blank" class="full"></a>
+    </div>
+    <div class="row-4 home-links">
+      <div class="icon"><img src="/views/images/unag-logo-small.png" style="width:92px;" /></div>
+      <div class="content">
+        <span class="title">UNAG <strong>presencial</strong></span>
+        <a href="http://unag.mx/" target="_blank" class="more">Clic aquí</a>
+      </div>
+      <a href="http://unag.mx/" target="_blank" class="full"></a>
+    </div>
+  </div>
+</div>
+<div class="section light">
+  <hr class="separator" />
+</div>
+<div class="section light">
+  <div class="container" id="alliances">
+    <span class="title">Alianzas <strong>Estratégicas</strong></span>
+    <div class="icons">
+      <div class="icon"><img src="/views/images/alliances-unesco.png" style="width:120px;" /></div>
+      <div class="icon"><img src="/views/images/alliances-see.png" style="margin-top:14px; width:140px;" /></div>
+      <div class="icon"><img src="/views/images/alliances-sep.png" style="margin-top:14px; width:140px;" /></div>
+      <div class="icon"><img src="/views/images/alliances-americanchamber.png" style="width:93px;" /></div>
+      <div class="icon"><img src="/views/images/alliances-coparmex.png" style="width:80px;" /></div>
+    </div>
+  </div>
+</div>
+<div id="footer-container">
+  <div id="footer">
+    <div id="footer-unag">
+      <span><strong>UNAG A DISTANCIA</strong> CUENTA CON EL RESPALDO DE:</span>
+      <a href="http://unag.mx/" target="_blank"></a>
+    </div>
+    <div id="footer-contact">
+      <p>Av. La Paz 2873, Col. Los Arcos Sur, C.P. 44130<br />Guadalajara, Jalisco, México. Entre calle Colonias y calle Progreso</p>
+      <span class="phone">01 800 000 UNAG</span>
+      <span class="mail"><a href="/contacto/">distancia@unag.mx</a></span>
+          </div>
+    <div id="footer-social">
+      <a href="https://www.facebook.com/pages/UNAG-Universidad-Antropológica-de-Guadalajara/688118537865354" target="_blank" class="fb"></a>
+      <a href="https://www.youtube.com/user/UNAGJALISCO" target="_blank" class="yt"></a>
+    </div>
+  </div>
+</div>
+<!-- Scripts: -->
+    <script type="text/javascript" src="/views/js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="/views/js/unag-1.0.0.min.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-60435771-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 954076525;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/954076525/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google Code for Solicitudes de información Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 954076525;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "DQjoCM3MlloQ7Zr4xgM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/954076525/?label=DQjoCM3MlloQ7Zr4xgM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- /Scripts -->
+</body>
+</html>
